@@ -8,7 +8,7 @@
     "lint": "turbo lint",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo build && changeset publish"
+    "release-package": "turbo build && changeset publish"
   },
   "keywords": [],
   "author": "",
