@@ -14,11 +14,12 @@
     "changeset": "changeset",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "release-package": "turbo build && changeset publish",
-    "version-packages": "changeset version"
+    "version-packages": "changeset version",
+    "release-package": "turbo build && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.6",
     "turbo": "^2.0.5"
-  }
+  },
+  "packageManager": "npm@6.0.0"
 }
