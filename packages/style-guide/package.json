@@ -1,6 +1,6 @@
 {
   "name": "@nachogonzalezv99/style-guide",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Acciona's engineering style guide",
   "license": "ISC",
   "exports": {
@@ -17,6 +17,8 @@
   },
   "peerDependencies": {
     "prettier": ">=3.0.0 <4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
-
