@@ -1,19 +1,22 @@
 {
+  "name": "monorepo",
   "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
-  "workspaces":["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo build",
+    "changeset": "changeset",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release-package": "turbo build && changeset publish"
+    "release-package": "turbo build && changeset publish",
+    "version-packages": "changeset version"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@changesets/cli": "^2.27.6",
     "turbo": "^2.0.5"
